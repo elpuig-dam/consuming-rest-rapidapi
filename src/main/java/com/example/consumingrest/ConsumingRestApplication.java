@@ -20,7 +20,7 @@ public class ConsumingRestApplication {
 	@Bean
 	public RestTemplate restTemplate(RestTemplateBuilder restTemplateBuilder) {
 		return restTemplateBuilder
-				.defaultHeader("X-RapidAPI-Key", "295cbdedcemsh1ea0f5db08a29b8p1237f6jsn5f4f6d5b5944")
+				.defaultHeader("X-RapidAPI-Key",DataConfig.API_KEY)
 				.build();
 	}
 

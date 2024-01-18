@@ -21,3 +21,7 @@ target/
 
 *.class
 .mvn
+
+# Hidden data
+DataConfig.java
+
